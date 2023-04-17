@@ -1,0 +1,6 @@
+*.exe
+test.py
+images
+env
+.idea
+__pycache__

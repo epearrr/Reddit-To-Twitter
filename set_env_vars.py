@@ -1,0 +1,6 @@
+import os
+
+os.environ['TWT_CONSUMER_SECRET'] = 'A2DCyRZKaBOnVm6LNqTHBABgv1C34A6L5Se6AlfdCNh2xLetRO'
+os.environ['TWT_CONSUMER_KEY'] = 'ai2HbHL2C7Nr1tJlAiUGCM3sz'
+os.environ['TWT_ACCESS_SECRET'] = 'tymSSpyQu46ARCdYZJvbd8ZzpcHhvsogkAOjzZ0GWCHab'
+os.environ['TWT_ACCESS_TOKEN'] = '1596567895722672128-3Ntky2YDy5oa0ojIiOJf6kvKTpwkEv'

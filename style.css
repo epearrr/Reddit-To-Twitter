@@ -1,0 +1,223 @@
+:root{
+    --main-font: Copperplate;
+    --main-bg-color: rgba(114, 32, 32, .85);
+    --secondary-bg-color: rgba(159, 57, 57, 0.85);
+    --main-color: rgba(43, 103, 31, .8);
+}
+
+.flexbox-layout article {
+    display: flex;
+    flex-direction: row;
+}
+section{
+    flex-basis: 50%;
+}
+.thirds section{
+    flex-basis: 33.33%;
+}
+/*.flexbox-layout-half section{*/
+/*    flex-basis: 50%;*/
+/*}*/
+
+.flex-row-1{
+    flex: 0 1 50%;
+}
+
+.flex-row-2{
+    flex: 0 1 50%;
+}
+
+.center-text{
+    text-align: center;
+}
+
+table, caption, nav, main, h1, footer{
+    border: .1em solid white;
+    border-collapse: collapse;
+    color:white;
+    background-color: var(--main-bg-color);
+    font-family: var(--main-font);
+    padding: .3em;
+}
+
+main{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+th, td{
+    border: .2em dashed white;
+    border-collapse: collapse;
+    border-style: outset;
+    color:white;
+    font-family: var(--main-font);
+    padding: .3em;
+}
+
+tr:nth-child(odd){
+    background-color:  var(--secondary-bg-color);
+}
+tr:nth-child(even){
+    background-color: var(--main-bg-color);
+}
+
+/*tr:hover{*/
+/*    background-color: rgba(184, 134, 11, 25);*/
+/*}*/
+
+.crazy table{
+    transition: width 1s;
+}
+
+.crazy table:hover{
+    width: 105%;
+}
+
+table{
+    width:100%;
+    margin: auto;
+}
+
+h3, h4, p, li{
+    color:black;
+    font-family: var(--main-font);
+}
+
+h4{
+    max-width: 4%;
+}
+
+ul{
+    /*max-width: 35%;*/
+}
+
+cite{
+    font-size: xx-small;
+}
+body{
+    background-image: url("../images/poker-background.jpg");
+    background-size: 100%;
+    padding: 3em;
+    margin: 0em;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+nav a{
+    display: inline-block;
+    width: 19%;
+}
+nav{
+    /*border: thin solid yellow;*/
+    background-color: var(--main-bg-color);
+    text-align: center;
+    font-size: 120%;
+}
+
+a{
+    color: rgb(255, 224, 224);
+    font-family: var(--main-font);
+}
+a:hover{
+    color: rgb(227, 142, 142)
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.5em;
+    margin: .3em;
+    color: black;
+}
+li{
+    font-size:1.5em;
+}
+.paragraphIndent p{
+    text-indent: 2em;
+}
+
+legend{
+    color: white;
+}
+figcaption{
+    background-color: rgba(43, 103, 31, 0);
+}
+img{
+    max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.round-image{
+    border-radius: 5%;
+}
+.round-border {
+    border: solid white;
+    border-radius: 5%;
+    padding: 2%;
+    text-align: center;
+}
+#recycling-figure{
+    max-width: 100%;
+}
+#detail-chart-figure{
+    max-width: 50%;
+}
+
+.response-text-box{
+    max-width: 90%;
+}
+
+.float-right{
+    float: right;
+}
+
+input[type=text]:hover{
+    border: 2px solid gold;
+}
+
+input[type=checkbox]{
+    margin: -.1em;
+}
+
+input[type=radio]{
+    margin: -.1em;
+}
+
+label{
+    text-align: start;
+}
+
+.listbox{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea{
+    width: 100%;
+    height: 3em;
+}
+
+input[type=submit]{
+    position: relative;
+    display: block;
+    width: 30%;
+    background-color: rgba(159, 57, 57, 0.85);
+    height: 1.3em;
+    font-size: 1.3em;
+    margin: 0 auto;
+}
+
+input[type=file]{
+    position: relative;
+    display: block;
+    width: 30%;
+    background-color: rgba(159, 57, 57, 0.85);
+    height: 1.3em;
+    font-size: 1.3em;
+    margin: 0 auto;
+}

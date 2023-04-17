@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Ethan Perry, Nate Smith">
+        <title>Reddit to Twitter</title>
+        <meta name="description" content="This page is for uploading images to Twitter">
+        <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    </head>
+    <body>
+    	<header>
+    		<h1>Module 3 Open Ended Project</h1>
+            <h3>Select all the files you want to consider for posting by clicking "Choose Files" below</h3>
+    	</header>
+        
+    	<form enctype="multipart/form-data" action="uploadImages.php" method="POST">
+            <input type="file" name="images[]" multiple="multiple" /><br />
+            <input type="submit" value="Upload" />
+        </form>
+    </body>
+</html>
